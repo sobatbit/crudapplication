@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color:rgb(28, 209, 52);
+  background-color:rgb(11, 231, 47);
 }
 
 .form {
@@ -15,4 +15,10 @@
   height: 40px;
   margin: 10px;
   font-size: 20px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border: none;
 }

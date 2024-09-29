@@ -4,8 +4,8 @@ import Axios from 'axios'
 
 function App() {
 
-  const [movieName, setMovieName] = useState([])
-  const [review, setReview] = useState([])
+  const [movieName, setMovieName] = useState("")
+  const [review, setReview] = useState("")
 
   const submitReview = () => {
     Axios.post('http://localhost:3001/api/insert', {
